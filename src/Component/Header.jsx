@@ -1,9 +1,5 @@
-import React from 'react'
-
 export const Header = () => {
   return (
-    <div>
-        <h1>TO DO LIST APP</h1>
-    </div>
-  )
-}
+    <h1 className="text-2xl font-bold mb-4">My To-Do App</h1>
+  );
+};
